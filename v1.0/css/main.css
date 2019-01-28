@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: #3D2F2C;
+}
+header{
+  background: white;
+  box-shadow: 0px 0px 10px black;
+
+}
+header h1{
+  color: black;
+  font-size: 2em;
+  max-width: 10vw;
+  margin: auto;
+}
+.wrapper{
+  display:grid;
+  grid-template-areas:
+  'login login information information'
+  'login login information information';
+  max-width: 90vw;
+  margin: 10vh auto;
+    box-shadow: 0px 0px 10px black;
+}
+a{
+  float: right;
+  margin: -2rem 1rem;
+}
+.signinForm h1{
+  max-width:50vw;
+  margin: auto;
+
+}
+.signinForm{
+  /*
+  margin: 10vh auto;
+  padding-left: 8.5vw;
+  max-width: 30vw;
+  max-height: 60vh;
+  min-height: 50vh;
+  background-color: #6ed3cf;
+  box-shadow: 0px 0px 10px #888888;
+  grid-area: 'login';
+  */
+  display: grid;
+  grid-area: login;
+  min-height: 50vh;
+
+  background-color: white;
+
+}
+
+ .data_input{
+
+  margin: auto 30px;
+  max-width: 100rem;
+  min-width: 40vw;
+  /*min-width: 40rem;
+  min-height: 3rem;*/
+
+}
+.signup_data{
+  margin: auto 30px;
+
+}
+.information{
+  grid-area: information;
+  color: white;
+/*  min-width: 20vw ;*/
+background: #F97202;
+  min-width: 30vw;
+}
+.information h1{
+  text-align: center;
+  margin: auto;
+}
+.signinForm input[type = "submit"]{
+  border: 0px;
+  min-width: 40vw;
+  margin: auto;
+}
+
+.information input[type = "submit"]{
+  min-width: 40vw;
+}

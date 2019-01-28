@@ -1,0 +1,154 @@
+*{
+
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: #CDCDCD;
+}
+header{
+  background-color: white;
+  display: block;
+  box-shadow: 0px 0px 10px black;
+}
+.item_panel{
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  min-height: 40vh;
+  line-height: 40px;
+  padding-left:2rem;
+  padding-top: 1rem;
+}
+.Pricing{
+  padding-left:2rem;
+  padding-top: 1rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+
+}
+.BuyNowForm{
+  display: inline-block;
+  float: right;
+  margin-top: 1.5rem;
+
+}
+.BuyNowForm input{
+  display: inline-block;
+  margin: auto;
+}
+header h1{
+  color: black;
+  font-size: 2em;
+  max-width: 10vw;
+  margin: auto;
+}
+
+.widgets_market{
+  float:right;
+  display: block;
+  margin: -2.4rem auto;
+}
+a{
+  float:right;
+}
+.wrapper{
+  display: grid;
+  grid-template-areas:
+  'information information sellnow'
+  'information information sellnow'
+  'listeditems listeditems listeditems';
+  max-width: 90vw;
+  grid-gap: 2vw;
+  margin: 10vh auto;
+  padding-left: 10vw;
+}
+.listeditems{
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+
+}
+.items_added{
+  margin: auto 20px;
+  max-height: 30vh;
+
+}
+.pricing{
+  color:green;
+  float: right;
+}
+.items_added h3{
+  display: inline-block;
+}
+.items_added p{
+  display: inline-block;
+}
+
+.items_added form{
+  display: inline-block;
+}
+input{
+  display: inline-block;
+}
+
+
+
+/*
+.wrapper{
+  display:grid;
+  grid-template-areas:
+  'login login information information'
+  'login login information information';
+  max-width: 90vw;
+  margin: 10vh auto;
+    box-shadow: 0px 0px 10px black;
+}
+.signinForm h1{
+  max-width:50vw;
+  margin: auto;
+
+}
+.signinForm{
+
+  display: grid;
+  grid-area: login;
+  min-height: 50vh;
+
+  background-color: white;
+
+}
+
+ .data_input{
+
+  margin: auto 30px;
+  max-width: 100rem;
+  min-width: 40vw;
+
+
+}
+.signup_data{
+  margin: auto 30px;
+
+}
+.information{
+  grid-area: information;
+  color: white;
+background: #F97202;
+  min-width: 30vw;
+}
+.information h1{
+  text-align: center;
+  margin: auto;
+}
+.signinForm input[type = "submit"]{
+  border: 0px;
+  min-width: 40vw;
+  margin: auto;
+}
+
+.information input[type = "submit"]{
+  border: 0px;
+  min-width: 40vw;
+  margin: auto 2vw;
+
+}
+*/

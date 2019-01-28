@@ -1,0 +1,245 @@
+*{
+
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: #CDCDCD;
+}
+header{
+  display: block;
+  background: white;
+  box-shadow: 0px 0px 10px black;
+
+}
+header h1{
+  color: black;
+  font-size: 2em;
+  max-width: 10vw;
+  margin: auto;
+}
+a{
+  margin: auto;
+  padding: 3px;
+  padding-right: 5vw;
+  color: black;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.section_data1{
+  background-color: white;
+  grid-area: section_data1;
+  box-shadow: 0px 0px 10px black;
+
+}
+.section_data1 h3{
+  max-width: 20vh;
+  margin:auto;
+}
+.section_data1 h1{
+  display: inline-block;
+  font-size: 25px;
+}
+.section_data1 p{
+  display: inline-block;
+  padding-left: 5vw;
+}
+
+.customCard{
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  margin:10vh 5vw;
+}
+.historyButton{
+  margin-right: 45vw;
+  margin-top:3vh;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-areas:
+  'information information information  bidnow'
+  'information information information  bidnow'
+  'listeditems listeditems2 listeditems2 sellnow '
+  'listeditemssold listeditemssold listeditemssold2 listeditemssold2'
+  'listeditemssold3 listeditemssold3 listeditemssold4 listeditemssold4';
+  max-width: 90vw;
+  grid-gap: 2vw;
+  margin: 10vh auto;
+}
+.listeditemssold1{
+  grid-area: listeditemssold2;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+.listeditemssold{
+  grid-area: listeditemssold;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+.listeditemssold4{
+  grid-area: listeditemssold4;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+.biddingitemnew{
+  grid-area: biddingitemnew;
+  background-color: white;
+  max-height: 50vh;
+  box-shadow: 0px 0px 10px black;
+
+}
+.listeditemssold3{
+  grid-area: listeditemssold3;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+.section_data{
+  background-color: white;
+  grid-area: information;
+  box-shadow: 0px 0px 10px black;
+
+}
+.section_data h3{
+  max-width: 30vh;
+  margin:auto;
+}
+.section_data h1{
+  display: inline-block;
+
+  font-size: 25px;
+}
+.section_data p{
+  display: inline-block;
+}
+.sellitems{
+  background-color: white;
+  grid-area: sellnow;
+  box-shadow: 0px 0px 10px black;
+
+}
+.biditems{
+  background-color: white;
+  grid-area: bidnow;
+  box-shadow: 0px 0px 10px black;
+}
+.sellitemsinput{
+  max-width: 30vw;
+  margin: auto;
+}
+.wrapper_sell{
+    margin: 4px;
+}
+#submitthething{
+  min-width: 30vw;
+
+  margin: 10px auto;
+}
+.listeditems{
+  background-color: white;
+  grid-area: listeditems;
+  box-shadow: 0px 0px 10px black;
+
+}
+.listeditems2{
+  background-color: white;
+  grid-area: listeditems2;
+  box-shadow: 0px 0px 10px black;
+}
+.items_added{
+  margin: auto 20px;
+  max-height: 30vh;
+
+}
+.pricing{
+  color:green;
+  float: right;
+}
+.items_added h3{
+  display: inline-block;
+}
+.items_added p{
+  display: inline-block;
+}
+#statusofitem_{
+  font-weight: bold;
+  color:blue;
+  display: inline-block;
+}
+.items_added form{
+  display: inline-block;
+}
+input{
+  display: inline-block;
+}
+.normal{
+  display: inline-block;
+  float:right;
+
+}
+.normal input{
+  display: inline-block;
+  float:right;
+}
+/*
+.wrapper{
+  display:grid;
+  grid-template-areas:
+  'login login information information'
+  'login login information information';
+  max-width: 90vw;
+  margin: 10vh auto;
+    box-shadow: 0px 0px 10px black;
+}
+.signinForm h1{
+  max-width:50vw;
+  margin: auto;
+
+}
+.signinForm{
+
+  display: grid;
+  grid-area: login;
+  min-height: 50vh;
+
+  background-color: white;
+
+}
+
+ .data_input{
+
+  margin: auto 30px;
+  max-width: 100rem;
+  min-width: 40vw;
+
+
+}
+.signup_data{
+  margin: auto 30px;
+
+}
+.information{
+  grid-area: information;
+  color: white;
+background: #F97202;
+  min-width: 30vw;
+}
+.information h1{
+  text-align: center;
+  margin: auto;
+}
+.signinForm input[type = "submit"]{
+  border: 0px;
+  min-width: 40vw;
+  margin: auto;
+}
+
+.information input[type = "submit"]{
+  border: 0px;
+  min-width: 40vw;
+  margin: auto 2vw;
+
+}
+*/

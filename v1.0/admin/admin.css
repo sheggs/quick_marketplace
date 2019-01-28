@@ -1,0 +1,128 @@
+*{
+
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: #CDCDCD;
+}
+nav{
+  height: 100%;
+}
+header{
+  z-index: -1;
+  display: block;
+  background: #888c8a;
+  box-shadow: 0px 0px 10px black;
+
+}
+table{
+  display: block;
+  width:89vw;
+  margin-left:10vw;
+
+}
+th{
+
+}
+td{
+  margin:0;
+  width: 59vw;
+  padding:0;
+}
+table tr:nth-child(even){
+  margin:0;
+  width: 59vw;
+  padding:0;
+  background-color: grey;
+}
+table tr:nth-child(odd){
+  margin:0;
+  width: 59vw;
+  padding:0;
+  background-color: white;
+}
+table,th,td{
+  border: 1px solid;
+}
+input[type = 'submit']{
+  border-radius: 0;
+  -web-border-radius:0;
+}
+.AccountModification{
+  max-width: 40vw;
+  margin:auto;
+  margin-top: 10vh;
+
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+
+}
+.paddingContent{
+  padding-left: 2vw;
+}
+.paddingContent label{
+  font-weight: 100000px;
+}
+.override{
+  background-color: green;
+  border: green;
+}
+.override:hover{
+  background-color: #b3f442;
+}
+header h1{
+  color: white;
+  font-size: 2em;
+  max-width: 10vw;
+  margin: auto;
+}
+.wrapper2{
+  margin: 5vw;
+  margin-left: 15vw;
+  margin-right: 5vw;
+  display: grid;
+  top:0;
+  grid-gap: 2rem;
+  grid-template-areas:
+  'displayNoApprovals displayNoUsers displayNoBiddableProducts'
+  'displayNoApprovals displayNoUsers displayNoPurchaseProducts';
+}
+
+.displayNoApprovals{
+  grid-area: displayNoApprovals;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+h1 {
+  text-align: center;
+}
+ p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: grey;
+}
+.displayNoUsers{
+  grid-area: displayNoUsers;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+.displayNoBiddableProducts{
+  grid-area: displayNoBiddableProducts;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+.displayNoPurchaseProducts{
+  grid-area: displayNoPurchaseProducts;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+}
+.displayAdminLogs{
+  display: block;
+  margin: 5vw;
+  margin-left: 15vw;
+  margin-right: 5vw;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+
+}
